@@ -4,6 +4,10 @@ A searchable portfolio of [@deadSwank001's public repositories](https://github.c
 with curated highlights and filters for topic and language.
 
 Open `index.html` in a browser or run `python -m http.server` in this directory.
+To publish on GitHub Pages, choose **Settings → Pages → Deploy from a branch**,
+then select `main` and `/ (root)`. The site URL appears in the Pages settings
+once deployment completes.
+
 The page reads the public GitHub API from the visitor's browser, including all
 pages of results. If the API is unavailable or rate-limited, it displays the
 bundled snapshot and says so. No authentication or private repository data is
