@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>David | Project Explorer</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<main>
+  <header class="hero">
+    <nav><a class="brand" href="https://github.com/deadSwank001">DB / PROJECTS</a><a href="#projects">Explore projects ↓</a></nav>
+    <p class="eyebrow">DAVID BURMEISTER / CREATIVE TECHNOLOGY</p>
+    <h1>Ideas are better<br><span>when you build them.</span></h1>
+    <p class="intro">An evolving collection of experiments in AI, data, web applications, and creative software.</p>
+    <a class="button" href="#featured">View highlights</a>
+  </header>
+  <section id="featured"><div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2>Featured projects</h2></div><p>Research prototypes, tools, and experiments.</p></div><div id="featuredCards" class="featured"></div></section>
+  <section id="projects"><div class="section-heading"><div><p class="eyebrow">THE FULL COLLECTION</p><h2>Explore the work</h2></div><p id="status" role="status" aria-live="polite">Loading public repositories…</p></div>
+    <div class="filters">
+      <label>Search <input id="search" type="search" placeholder="Search projects or keywords"></label>
+      <label>Topic <select id="topic"><option>All topics</option><option>AI &amp; ML</option><option>Data &amp; research</option><option>Web &amp; apps</option><option>Finance &amp; blockchain</option><option>Creative &amp; games</option><option>Other</option></select></label>
+      <label>Language <select id="language"><option>All languages</option></select></label>
+    </div>
+    <p id="count" aria-live="polite"></p><div id="cards" class="cards"></div>
+  </section>
+  <footer><span>Made for curiosity and continuous learning.</span><a href="https://github.com/deadSwank001">GitHub profile ↗</a></footer>
+</main>
+<script src="projects-data.js"></script><script src="explorer.js"></script><script src="app.js"></script>
+</body></html>
